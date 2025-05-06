@@ -27,5 +27,3 @@ def create_app():
         db.create_all()
 
     return app
-
-#для коммита в новую ветку

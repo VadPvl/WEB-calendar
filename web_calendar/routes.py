@@ -150,5 +150,3 @@ def delete_event(event_id):
     db.session.delete(e)
     db.session.commit()
     return jsonify({'status': 'deleted'})
-
-#для коммита в новую ветку
